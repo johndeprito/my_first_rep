@@ -41,6 +41,7 @@ public class Bankbazaar {
 		Thread.sleep(50000);
 		String Ph_no = driver.findElement(By.xpath("//input[contains(@name,'mobileNumber')]")).getText();
 		System.out.print(Ph_no);
+		System.out.println("success");
 		
 		//driver.findElement(By.linkText("Submit")).click();
 		
